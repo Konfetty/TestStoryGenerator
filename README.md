@@ -1,7 +1,7 @@
 # TestStoryGenerator
 Generator für beliebig viele Textdateien in Zweierpotenz mit korrekter Verlinkung untereinander.
-Dieses Tool wurde erstellt um das Testen von ESP Ass2 an der TU Graz WS17/18 zu vereinfachen.
-Einfach den Surcecode comilieren und das Programm ausführen.
+Dieses Tool wurde erstellt, um das Testen von ESP Ass2 an der TU Graz WS17/18 zu vereinfachen.
+Einfach den Surcecode compilieren und das Programm ausführen.
 Es benötigt ein Argument: Die Anzahl der Dateien, welches es generieren soll, als Exponent von 2.
 Also: "./TestStoryGenerator 6" generiert 2 ^ (6) - 1 = 63 Textdateien.
 
