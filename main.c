@@ -36,6 +36,9 @@ int main(int argc, char *argv[])
         "Try to stay below 2^31");
     return INVALID_ARGUMENT;
   }
+
+  printf("%i textfiles are being generated now.",number_of_nodes - 1);
+
   unsigned int max_number_of_fathers = (number_of_nodes / 2) - 1;
 
   for (unsigned int title_number = 1;
